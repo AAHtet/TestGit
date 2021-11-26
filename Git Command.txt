@@ -1,0 +1,30 @@
+1.git ကိုစသုံးမယ်ဆိုရင်  $ git init
+2.git add . or file name
+3.git commit -m ".... "
+4.git branch -M main
+5.git remote origin
+6.git push -u origin main
+7.git pull origin (branch name)
+8.git status
+9.git reset
+10.git log 
+11.Conflic Error => 1 file ထဲမှာ ပြိုင်တူလုပ်ဆောင်တဲ့ခါမျိုးမှာ config error တက်နိုင်တယ်။
+12.git merge
+14.git clone 
+15.git branch
+16.git checkout -b branchname => create branch and checkout branch
+17.git checkout
+
+1.Directory တခုတည်ဆောက် files တွေကို git repository ပေါ်တင်ပေးရမည်။
+2.git commit 3ခါ => file update or existing file edit
+3.git branch 2ခါတည်ဆောက်ပေးရမည် feature =>
+4.တူညီသော file 1ခုကို local & online ကနေပြင်ပေးပြီး git push လုပ်ပေးရမည် error မြင်ရမည် git pullဆွဲပြီး error ဖြေရှင်းပြပါ။
+5.git merge branch ပေါင်းပေးပါ။
+
+echo "# Test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/AAHtet/Test1.git
+git push -u origin main
